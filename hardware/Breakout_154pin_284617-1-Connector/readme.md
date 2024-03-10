@@ -1,0 +1,1 @@
+Moved to https://github.com/gerefi/gerefi-hardware/tree/main/breakout-boards/Breakout_154pin_284617-1-Connector

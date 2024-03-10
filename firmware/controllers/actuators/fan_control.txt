@@ -1,0 +1,10 @@
+struct_no_prefix fan_control_s
+	bit cranking
+	bit notRunning
+	bit disabledWhileEngineStopped
+	bit brokenClt
+	bit enabledForAc
+	bit hot
+	bit cold
+	bit disabledBySpeed
+end_struct

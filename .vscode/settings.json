@@ -1,0 +1,39 @@
+{
+    "files.associations": {
+		"xstring": "cpp",
+		"ios": "cpp",
+		"xlocale": "cpp",
+		"xtr1common": "cpp",
+		"xiosbase": "cpp",
+		"deque": "cpp",
+		"forward_list": "cpp",
+		"list": "cpp",
+		"system_error": "cpp",
+		"vector": "cpp",
+		"xhash": "cpp",
+		"xtree": "cpp"
+	},
+	"editor.detectIndentation": false,
+	"editor.indentSize": 4,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"files.exclude": {
+		"**/.dep": true,
+		"**/build/lst": true,
+		"**/build/obj": true,
+		"hardware/": true,
+	},
+	"search.exclude": {
+		"**/.dep": true,
+		"**/build/lst": true,
+		"**/build/obj": true,
+		"hardware/": true,
+		"firmware/ChibiOS/demos": true,
+	},
+	"cSpell.words": [
+		"IACV"
+	],
+	"files.associations": {
+		"*.input": "ini"
+	},
+}

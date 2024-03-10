@@ -1,0 +1,5 @@
+.gradle
+**/gerefi_tool.log
+log
+# PTrace files
+*.json
