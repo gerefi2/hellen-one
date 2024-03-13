@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 ############################################################################################
 # Hellen-One: A python script to generate a Hellen-One BOM for a frame from a KiCad generic netlist.
-# (c) andreika <prometheus.pcb@gmail.com>
+# (c) Bruno_Ferreira <c_motorsport@hotmail.com>
 ############################################################################################
 
 """
@@ -22,7 +22,7 @@ import csv
 import sys
 import os
 
-# [andreika]: add kicad plugins path
+# [Bruno_Ferreira]: add kicad plugins path
 sys.path.append(os.path.dirname(sys.executable) + "/scripting/plugins")
 # Import the KiCad python helper module
 import kicad_netlist_reader

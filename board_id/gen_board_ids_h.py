@@ -2,7 +2,7 @@
 ############################################################################################
 # Hellen-One: Generates a header file containing the list of Board-IDs.
 # The result is stored in 'libfirmware/board_id/boards_id.h' folder.
-# (c) andreika <prometheus.pcb@gmail.com>
+# (c) Bruno_Ferreira <c_motorsport@hotmail.com>
 ############################################################################################
 
 import csv, sys, os, re, datetime

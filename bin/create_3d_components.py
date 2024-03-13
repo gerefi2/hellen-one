@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 ############################################################################################
 # Hellen-One: A script to create a 3D components view (VRML).
-# (c) andreika <prometheus.pcb@gmail.com>
+# (c) Bruno_Ferreira <c_motorsport@hotmail.com>
 ############################################################################################
 
 import os, sys, re, math

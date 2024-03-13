@@ -2,7 +2,7 @@
 
 ############################################################################################
 # Hellen-One: A Hellen board creation script.
-# (c) andreika <prometheus.pcb@gmail.com>
+# (c) Bruno_Ferreira <c_motorsport@hotmail.com>
 ############################################################################################
 
 project_base="$1"

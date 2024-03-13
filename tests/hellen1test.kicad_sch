@@ -1325,11 +1325,11 @@
     )
   )
 
-  (text "https://rusefi.com/" (at 213.36 180.34 180)
+  (text "https://gerefi.com/" (at 213.36 180.34 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 88829688-4ef3-4bd2-aabd-0fd5cefeaa65)
   )
-  (text "https://github.com/andreika-git/hellen-one/wiki" (at 275.59 180.34 180)
+  (text "https://github.com/gerefi2/hellen-one/wiki" (at 275.59 180.34 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9b02c8c3-9246-4b4e-8eeb-02118d4739fa)
   )

@@ -1,9 +1,9 @@
 [submodule "bin/gerbmerge"]
 	path = bin/gerbmerge
-	url = https://github.com/andreika-git/gerbmerge
+	url = https://github.com/gerefi2/gerbmerge
 [submodule "bin/python-combine-pdfs"]
 	path = bin/python-combine-pdfs
-	url = https://github.com/andreika-git/python-combine-pdfs
+	url = https://github.com/gerefi2/python-combine-pdfs
 	branch = python2-backport
 [submodule "bin/InteractiveHtmlBom"]
 	path = bin/InteractiveHtmlBom
@@ -13,4 +13,4 @@
 	url = https://github.com/curtacircuitos/pcb-tools.git
 [submodule "board_id/libfirmware"]
 	path = board_id/libfirmware
-	url = https://github.com/rusefi/libfirmware/
+	url = https://github.com/gerefi/libfirmware/

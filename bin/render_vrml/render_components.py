@@ -3,7 +3,7 @@
 # Hellen-One: A 3D-component VRML rendering server script.
 # Python 3.5+ is required.
 # Dependencies: ModernGL, Pillow, Pyrr, NumPy, PyVRML97, Gzip
-# (c) andreika <prometheus.pcb@gmail.com>
+# (c) Bruno_Ferreira <c_motorsport@hotmail.com>
 ############################################################################################
 
 import os, sys

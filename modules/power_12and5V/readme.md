@@ -1,1 +1,1 @@
-See https://github.com/andreika-git/hellen-one/wiki/module-power12-and-5
+See https://github.com/gerefi2/hellen-one/wiki/module-power12-and-5

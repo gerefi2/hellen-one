@@ -31,7 +31,7 @@ jobs:
           if [ -d hellen-one ]; then
             echo Found hellen-one
           else
-            git clone https://github.com/andreika-git/hellen-one
+            git clone https://github.com/gerefi2/hellen-one
             ls -l hellen-one
             cd hellen-one
             git submodule update --init

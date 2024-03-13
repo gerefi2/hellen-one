@@ -4,4 +4,4 @@ For instance
 * STM32F767VIT6
 * STM32F765VIT6
 
-Full list see https://github.com/andreika-git/hellen-one/issues/341
+Full list see https://github.com/gerefi2/hellen-one/issues/341

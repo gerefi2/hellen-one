@@ -1,1 +1,1 @@
-https://github.com/andreika-git/hellen-one/wiki/module-mega-mcu
+https://github.com/gerefi2/hellen-one/wiki/module-mega-mcu

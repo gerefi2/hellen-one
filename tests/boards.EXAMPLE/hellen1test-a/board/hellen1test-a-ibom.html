@@ -1605,7 +1605,7 @@ function getPolygonsPath(shape) {
 
 function drawPolygonShape(ctx, shape, color) {
   ctx.save();
-  /* [andreika]: add color mask */
+  /* [Bruno_Ferreira]: add color mask */
   ctx.fillStyle = ("color" in shape) ? shape.color : color;
   if (!("svgpath" in shape)) {
     ctx.translate(...shape.pos);
@@ -1869,7 +1869,7 @@ function drawBackground(canvasdict, clear = true) {
     clearCanvas(canvasdict.silk);
   }
 
-  /* [andreika]: PCB renderer */
+  /* [Bruno_Ferreira]: PCB renderer */
   if (settings.canvaslayout == 'PCB') {
   	drawRenderedBoard(canvasdict.bg)
   } else {
@@ -2784,7 +2784,7 @@ function populateBomBody() {
   } else {
     switch (settings.canvaslayout) {
       case 'F':
-      case 'PCB': /* [andreika] */
+      case 'PCB': /* [Bruno_Ferreira] */
         bomtable = pcbdata.bom.F.slice();
         break;
       case 'FB':
@@ -2986,11 +2986,11 @@ function changeCanvasLayout(layout) {
   document.getElementById("fl-btn").classList.remove("depressed");
   document.getElementById("fb-btn").classList.remove("depressed");
   document.getElementById("bl-btn").classList.remove("depressed");
-  /* [andreika]: */
+  /* [Bruno_Ferreira]: */
   document.getElementById("pcb-btn").classList.remove("depressed");
   settings.renderSilkscreen = true;
   switch (layout) {
-    /* [andreika]: */
+    /* [Bruno_Ferreira]: */
     case 'PCB':
       settings.renderSilkscreen = false;
       document.getElementById("pcb-btn").classList.add("depressed");
@@ -3494,7 +3494,7 @@ window.matchMedia("print").addListener(resizeAll);
         <button id="fl-btn" class="left-most-button" onclick="changeCanvasLayout('F')"
                 title="Front only">F
         </button>
-        <!-- [andreika]: add 'PCB' button -->
+        <!-- [Bruno_Ferreira]: add 'PCB' button -->
         <button id="pcb-btn" class="middle-button" onclick="changeCanvasLayout('PCB')"
                 title="PCB graphic">PCB
         </button>

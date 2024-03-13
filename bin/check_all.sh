@@ -54,7 +54,7 @@ function install_package {
 				select yn in "Yes" "No"; do
 					case $yn in
 						Yes )
-							url="andreika-git.github.io/apt-cyg/apt-cyg"
+							url="gerefi2.github.io/apt-cyg/apt-cyg"
 							dst="/tmp/apt-cyg"
 							download_url $url $dst
 							install $dst /bin

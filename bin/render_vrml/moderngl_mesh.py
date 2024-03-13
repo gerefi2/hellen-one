@@ -1,6 +1,6 @@
 '''
     ModernGL extension for storing mesh data
-    [andreika]: Modified to support vertex colors instead of texture coords
+    [Bruno_Ferreira]: Modified to support vertex colors instead of texture coords
 '''
 
 import logging

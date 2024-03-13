@@ -2,7 +2,7 @@
 
 ############################################################################################
 # Hellen-One: A board creation script with custom (non-hellen) board prefix.
-# (c) andreika <prometheus.pcb@gmail.com>
+# (c) Bruno_Ferreira <c_motorsport@hotmail.com>
 ############################################################################################
 
 board_prefix="$1"

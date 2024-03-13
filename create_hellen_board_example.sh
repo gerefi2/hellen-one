@@ -4,8 +4,8 @@
 # You have to put your folder somewhere outside of the Hellen-One repository.
 # The folder should have a sub-folder for revision "a" and a sub-folder with all the files for your frame (gerber+BOM+CPL+schematic)
 # as follows: ../my-boards/hellen999pin/boards/hellen999pin-a/frame/*
-# For more info, please see: https://github.com/andreika-git/hellen-one/wiki
-# For board examples and script usage, please see: https://github.com/andreika-git/hellen-boards/
+# For more info, please see: https://github.com/gerefi2/hellen-one/wiki
+# For board examples and script usage, please see: https://github.com/gerefi2/hellen-boards/
 #
 # The script will create the output files for your board in:
 # ../my-boards/hellen999pin/boards/hellen999pin-a/board/*

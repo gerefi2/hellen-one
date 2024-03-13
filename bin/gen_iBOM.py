@@ -2,10 +2,10 @@
 ############################################################################################
 # Hellen-One: A board rendering script.
 #
-# here we produde andreika-git-iBom using gerbers, placement and BOM files as input.
-# andreika-git-iBom adds 3D view of the PCB into the original https://github.com/openscopeproject/InteractiveHtmlBom
+# here we produde gerefi2-iBom using gerbers, placement and BOM files as input.
+# gerefi2-iBom adds 3D view of the PCB into the original https://github.com/openscopeproject/InteractiveHtmlBom
 #
-# (c) andreika <prometheus.pcb@gmail.com>
+# (c) Bruno_Ferreira <c_motorsport@hotmail.com>
 ############################################################################################
 #
 # based on iBom-template.html produced by https://github.com/openscopeproject/InteractiveHtmlBom
@@ -379,7 +379,7 @@ data = {
 	"silkscreen": { "B": [], "F": [] }, 
 	"edges_bbox": {	}, 
 	"font_data": { },
-	"metadata": { "date": datetime.now().strftime("%Y-%m-%d, %H:%M:%S"), "company": "rusEFI", "revision": revision, "title": "Hellen One: " + boardName }
+	"metadata": { "date": datetime.now().strftime("%Y-%m-%d, %H:%M:%S"), "company": "gerefi", "revision": revision, "title": "Hellen One: " + boardName }
 }
 
 # first, get yInvert
