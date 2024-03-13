@@ -1,1 +1,0 @@
-Subset of files from https://gnutoolchains.com/arm-eabi/openocd/

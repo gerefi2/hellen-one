@@ -1,1 +1,0 @@
-java -jar console/gerefi_console.jar dfu $1

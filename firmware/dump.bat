@@ -1,1 +1,0 @@
-arm-none-eabi-objdump -S build/gerefi.elf > build.dump

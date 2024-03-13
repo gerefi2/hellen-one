@@ -1,52 +1,39 @@
-<div align="center">
+# TL,DR: 
 
-<img src="https://raw.githubusercontent.com/wiki/gerefi/gerefi/Images/logo_new.png" alt="gerefi" width="600" />
+hellen-one is a toolset to produce custom PCBs by merging gerber files of known proven functional modules into trivial _frame_ PCB with mostly just the main vehicle connector.
 
-<b>GPL open-source ECU</b>
+* fork https://github.com/rusefi/hellen-example/ repo to get github actions and meta files
+* make sure github actions are enabled/enable github actions on your fork
+* replace xxx and yyy in ``revision.txt`` with name of your board
+* create youboard.kicad_pcb from [proven modules](https://github.com/andreika-git/hellen-one/tree/master/modules) using KiCAD 6 or 7
+* push into github to trigger hellen-one gerber expert and gerber merge (that's where the hellen magic happens! for instance gerber export is taken care by [export.sh](https://github.com/andreika-git/hellen-one/blob/master/kicad/bin/export.sh) script which github action would invoke _automatically_. Just watch for the yellow circle to turn into a green checkmark.)
+* (sorry rotation only by factor of 90 degrees at this point)
+* order your using fabrication files from 'boards' folder!
 
-[![Release](https://img.shields.io/github/v/release/gerefi/gerefi?style=flat)](https://github.com/gerefi/gerefi/releases/latest)![Last Commit](https://img.shields.io/github/last-commit/gerefi/gerefi?style=flat)
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/gerefi/gerefi/latest?color=blueviolet&label=Commits%20Since%20Release)
-</div>
+Please see how some of the open source boards are done and follow the pattern:
 
-# gerefi
+## Open Source Boards
 
+* https://github.com/rusefi/alphax-4chan
+* https://github.com/rusefi/uaefi
+* https://github.com/rusefi/alphax-2chan
+* https://github.com/rusefi/hellen154hyundai
+* https://github.com/rusefi/hellen121vag
+* https://github.com/rusefi/hellen88bmw
+* https://github.com/andreika-git/hellen81/
 
-See [gcc_version_check.c](https://github.com/gerefi/gerefi/blob/master/firmware/gcc_version_check.c) for recommended version of GCC.
+This repository contains all scripts and data to create Hellen One boards for [rusEFI](https://github.com/rusefi/rusefi)!
 
-Current binaries are always available on our [build server](http://gerefi.com/build_server/)
+See also https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform
 
-[![paypal](https://img.shields.io/badge/%E2%99%A5%EF%B8%8Fdonate-orange)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6YSSN35GWYS3A)
+Hellen One is a DIY PnP ECU board construction toolset.
 
-[shop.gerefi.com](https://www.shop.gerefi.com/)
+Do you have a car with a rare or non-standard ECU connector pinout?
+Do you want a custom DIY ECU but don't want to design it from scratch?
 
-# Cloning the repository
-`git clone https://github.com/gerefi/gerefi.git`
-Important note - we now use submodules:
+Then Hellen One is for you!
 
-`git submodule update --init`
+Please see Hellen One Wiki for more info:
 
-# What do we have here?
- * [Firmware](/firmware) Source code for open source engine control unit for stm32 chips incuding [implementation overview](https://github.com/gerefi/gerefi/blob/master/firmware/readme.md)
- * [Hardware](/hardware) KiCAD files for our older PCBs
- * [gerefi console](/java_console) gerefi own naive tuning software
- * [Simulator](/simulator) win32 or posix version of firmware allows to explore without any hardware 
- * [Unit Tests](/unit_tests) Unit tests of firmware pieces
- * [Misc tools](/java_tools) Misc development utilities
- * [Software Development process](misc/SoftwareDevelopmentProcess.md)
+https://github.com/andreika-git/hellen-one/wiki
 
-# External Links
-
- * [Forum](http://gerefi.com/forum)
- * [Documentation](https://github.com/gerefi/gerefi/wiki)
- * [Doxygen documentation](http://gerefi.com/docs/html)
- * [General source code Q&A](http://gerefi.com/forum/viewtopic.php?f=5&t=10)
- * [Facebook](https://www.facebook.com/gerefiECU)
- * [YouTube](https://www.youtube.com/user/gerefi)
- * [Patreon](https://www.patreon.com/gerefi)
-
-# Building the Code
-Check out https://gerefi.com/forum/viewtopic.php?f=5&t=9
-
-# Release Notes
-
-See [the changelog](firmware/CHANGELOG.md)

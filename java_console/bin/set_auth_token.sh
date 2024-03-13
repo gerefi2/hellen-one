@@ -1,1 +1,0 @@
-java -jar console/gerefi_console.jar set_auth_token $1
